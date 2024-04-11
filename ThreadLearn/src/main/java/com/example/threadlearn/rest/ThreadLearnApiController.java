@@ -9,7 +9,7 @@ import java.time.LocalDateTime;
 public class ThreadLearnApiController {
     @GetMapping("/demo-thread/running-multithread")
     public void running(){
-        System.out.println("Thread is start running ......" + LocalDateTime.now());
+        System.out.println("Thread is start running ...... hello chạy thử xem pussh được không" + LocalDateTime.now());
         System.out.println("Thread is off");
     }
 }
